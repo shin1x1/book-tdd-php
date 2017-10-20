@@ -4,5 +4,8 @@ php:
   - 7.1
   - 7.2snapshot
 
+before_script:
+  - make install
+
 script:
   - make test

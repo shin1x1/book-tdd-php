@@ -1,0 +1,13 @@
+{
+  "require-dev": {
+    "phpunit/phpunit": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Acme\\Part1\\": "Part1/"
+    }
+  },
+  "require": {
+    "php": "^7.1"
+  }
+}

@@ -6,3 +6,7 @@ services:
     volumes:
       - ./:/opt
     working_dir: /opt
+  composer:
+    image: composer
+    volumes:
+      - ./:/app
